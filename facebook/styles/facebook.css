@@ -88,3 +88,35 @@ body {
 .signup-link a:hover {
   text-decoration: underline;
 }
+
+.login-footer {
+  margin-top: 70px;
+  background-color: #fff;
+  padding: 100px;
+}
+
+.footer-links {
+  color: #737373;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-left: 175px;
+  margin-right: 116px;
+}
+
+.footer-links a {
+  color: #737373;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.fb-policy {
+  text-align: left;
+  color: #737373;
+  font-size: 12px;
+  margin-top: 16px;
+  margin-left: 180px;
+  margin-bottom: 100%;
+}
