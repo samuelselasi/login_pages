@@ -1,5 +1,5 @@
 # Twitter Login Page
-## Screen Shots
+## Screenshots
 
 ![Screenshot from 2023-06-06 03-22-15](https://github.com/samuelselasi/login_pages/assets/85158665/9632ffa3-617e-47b4-8642-0a43a8a7b050)
 
