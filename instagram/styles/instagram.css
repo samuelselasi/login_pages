@@ -1,0 +1,279 @@
+body {
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  color: #65676b;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62vh;
+}
+
+.login-form {
+  background-color: #fff;
+  width: 347px;
+  height: 425px;
+  padding: 20px;
+  border-radius: 0px;
+  border: 1px solid #ccd6dd;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 31px;
+  font-weight: 700;
+  font-family: Helvetica,Arial,sans-serif;
+  margin-bottom: 20px;
+  color: rgb(15, 20, 25);
+  text-align: left;
+  margin-left: 105px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%		;
+  padding: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccd6dd;
+  border-radius: 4px;
+  background-color: #fafafa;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(83, 100, 113);
+  font-family: Helvetica,Arial,sans-serif;
+  text-align: left;
+  align-content: center;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  opacity: .85;
+}
+
+.apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 24px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.apple button[type="submit"] {
+  width: 60%;
+  padding: 5px;
+  background-color: #fff;
+  color: rgb(15, 20, 25);
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccd6dd;
+}
+
+.apple-logo {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.apple button[type="submit"]:hover {
+  opacity: .85;
+  background-color: #e8eaed;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.google-logo {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.google button[type="submit"] {
+  width: 60%;
+  padding: 5px;
+  background-color: #fff;
+  color: rgb(15, 20, 25);
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border: 1px solid #ccd6dd;
+}
+
+.google button[type="submit"]:hover {
+  opacity: .85;
+  background-color: #d2e3fc;
+}
+
+.row {
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ph.input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 24px;
+  border: 1px solid #ccd6dd;
+  border-radius: 4px;
+  font-size: 17px;
+  text-align: center;
+  align-content: center;
+}
+
+.ph.input[type="text"]:focus {
+  border-color: #4285f4;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: 0px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.fp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.fp button[type="submit"] {
+  width: 60%;
+  padding: 10px;
+  background-color: #fff;
+  color: rgb(15, 20, 25);
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccd6dd;
+}
+
+.fp button[type="submit"]:hover {
+  opacity: .85;
+  background-color: #e8eaed;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #657786;
+  text-align: center;
+}
+
+.signup-link a {
+  font-weight: normal;
+  color: #385185;
+  font-size: 14px;
+}
+
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #385185;
+}
+ul,li{
+    list-style: none;
+}
+
+
+.popup{
+    display: none;
+}
+.box{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+}
+.close-menu{
+    border: none !important;
+    background-color: white;
+    font-size: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.fb-icon {
+  margin-right: 10px;
+  width: 20px;
+}
+
