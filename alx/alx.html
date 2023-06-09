@@ -1,0 +1,64 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="google" content="notranslate">
+
+
+		<title>Sessions - new | Intranet</title>
+
+		<link rel="icon" type="image/png" href="./images/alx-logo.png">
+		<link rel="stylesheet" type="text/css" href="styles/alx.css">
+
+
+		<meta name="csrf-param">
+
+		<meta name="csrf-token">
+
+		<link rel="apple-touch-icon" href="/apple-touch-icon_alx.png">
+
+	</head>
+
+	<body class="env_production notranslate" translate="no" data-theme-suffix="_alx">
+		<main>
+			<div id="layout-bars">
+			</div>
+
+			<article class="">
+				<div class="logged_out_form">
+					<h2 class="hbtn_logo"></h2>
+
+					<form class="sm-gap" id="new_user" action="#" accept-charset="UTF-8" method="post"><input type="hidden" autocomplete="off">
+						
+						<div class="field">
+							<label class="control-label" for="user_email">Email</label><br>
+							<input autofocus="autofocus" class="form-control" type="text" name="user[email]" id="user_email">
+						</div>
+
+						<div class="field">
+							<label class="control-label" for="user_password">Password</label><br>
+							<input autocomplete="off" class="form-control" type="password" name="user[password]" id="user_password">
+						</div>
+
+						<div class="field">
+							<input name="user[remember_me]" type="hidden" value="0" autocomplete="off"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+							<label class="control-label" for="user_remember_me">Remember me</label>
+						</div>
+
+						<div class="actions">
+							<input type="submit" name="commit" value="Log in" class="btn btn-primary" data-disable-with="Log in">
+						</div>
+					</form>
+					<ul id="devise_links" class="gap">
+						<li>
+							<a href="#">Forgot your password?</a>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<div class="copyright">Copyright © 2023 Sel, All rights not reserved.</div>
+		</main>
+	</body>
+</html>
